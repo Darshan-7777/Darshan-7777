@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body style="background-color:rgb(224, 73, 247) ">
+    <h1 style="color:rgb(248, 206, 0)" align="center">Validation form</h1>
+    <form action="#" method="post" align="center">
+        <fieldset>
+            Name:<input type="text" name="name" required pattern="[a-z A-Z]+"  title="ADD ALPHA"><br><br>
+
+            Surname:<input type="text" name="name"><br><br>
+
+            E-mail:<input type="e-mail" name="value" required><br><br>
+
+            Password:<input type="password" name="password" required minlength="8" mixlenght="12" title="ADD ALPHA" ><br><br>
+ 
+            Mobile:<input type="tel"  name="tel" required pattern="[0-9]{10}" title="ADD ONLY Mobile No"><br><br>
+
+            Dob:<input type="date" name="date" reqired max="2000-04-20"><br><br>
+
+
+            <input type="submit" name="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
